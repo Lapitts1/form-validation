@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 60%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 70%;
+  margin: 10px 0 20px 100px;
+  text-align: center;
+}
+
+select {
+  max-width: 18px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 40px 0 20px 100px;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: solid 1px #777;
+  text-align: center;
+}
+
+th {
+  background-color: #4caf50;
+}
